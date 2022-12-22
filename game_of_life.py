@@ -1,4 +1,4 @@
-from ast import List
+from typing import List
 class Solution:
 	def gameOfLife(self, board: List[List[int]]) -> None:
 		# Original | New | State
